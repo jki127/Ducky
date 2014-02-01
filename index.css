@@ -36,3 +36,26 @@ body{
 .post-link{
   text-align: center;
 }
+.promoted{
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 80%;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+  box-shadow: 0 0 0 5px red;
+  font-size: 5vw;
+}
+.item{
+  height: 200px;
+  border: 2px solid black;
+  -webkit-box-sizing: border-box;
+}
+.btn-signup, .btn-explore{
+  font-size: 2vw;
+  font-weight: 200;
+  border: none;
+  background: rgba(243, 156, 18,1.0);
+  color: white;
+  height: 50px;
+  width: 20%;
+}
