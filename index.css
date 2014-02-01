@@ -2,16 +2,24 @@ body{
   margin: 0;
 }
 .head{
+  text-shadow: 0 0 25px rgba(0,0,0,0.75);
+  color: white;
   margin: 0;
   width: 100%;
   height: 500px;
-  background: url('http://farm4.staticflickr.com/3761/8750166048_c22fa1f886_b.jpg');
+  background: url('http://farm4.staticflickr.com/3761/8750166048_a5e35f5e3f_k.jpg') no-repeat;
+  background-size: 100%;
 }
 .logo, .tagline, .item{
   text-align: center;
 }
 .logo{
-  font-size: 35pt;
+  font-size: 13vw;
+  margin: 0;
+  }
+.tagline{
+  font-size: 3vw;
+  font-weight: 200;
 }
 .signup{
   text-align: right;
