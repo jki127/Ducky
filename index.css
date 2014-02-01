@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+}
+.head{
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  background: url('http://farm4.staticflickr.com/3761/8750166048_c22fa1f886_b.jpg');
+}
+.logo, .tagline, .item{
+  text-align: center;
+}
+.logo{
+  font-size: 35pt;
+}
+.signup{
+  text-align: right;
+}
+.explore{
+  text-align: left;
+}
+.first-head-btn{
+  padding-right: 10px;
+}
+.second-head-btn{
+  padding-left: 10px;
+}
+.post-link{
+  text-align: center;
+}
