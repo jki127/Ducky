@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Ducky</title>
+	
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="signup.css" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: ['#1bbc9b', '#4BBFC3', '#2980b9','#9b59b6', '#9b59b6'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu'
+			});
+			
+		});
+	</script>
+
+</head>
+<body>
+
+
+<div class="section" id="section0">
+    <div class="slide">
+		<div class="intro">
+			<h1>Sign Up for Ducky</h1>
+			<p>Join our community of passionate teens to receive a personalized experience and to register for events & programs</p>
+			<div class="clear"></div>
+				<p><input type="text" name="email" value="" placeholder="Email"></p>
+			<p><input type="text" name="login" value="" placeholder="Username"></p>
+
+      		<p><input type="password" name="password" value="" placeholder="Password"></p>
+      		<button class="btn btn1">Next, tell us your interest!</button>
+		</div>
+		
+	</div>
+</div>
+<div class="section" id="section1">
+    <div class="slide">
+		<div class="intro">
+			<h1>What are your interests?</h1>
+			<p>Enter all that apply</p>
+			<div id="platforms">
+				<ul>
+	<li>
+		<input type="checkbox" class="myClass" value="yes" id="answer" name="answer"/>		<label for="one">Writing</label>
+	</li>
+	<li>
+		<input type="checkbox" class="myClass" value="yes" id="answer" name="answer"/>	
+		<label for="two">Entrepeneurship</label>
+	</li>
+	<li>
+		<input type="checkbox" name="three" id="three" />
+		<label for="three">Technology</label>
+	</li>
+	<li>
+		<input type="checkbox" name="four" id="four" />
+		<label for="four">Fashion</label>
+	</li>
+	<li>
+		<input type="checkbox" name="five" id="five" />
+		<label for="five">Arts & Craft</label>
+	</li>
+	<li>
+		<input type="checkbox" name="six" id="six" />
+		<label for="six">Science</label>
+	</li>
+	<li>
+		<input type="checkbox" name="six" id="six" />
+		<label for="six">Music</label>
+	</li>
+	<li>
+		<input type="checkbox" name="six" id="six" />
+		<label for="six">Sports</label>
+	</li>
+	<li>
+		<input type="checkbox" name="six" id="six" />
+		<label for="six">Reading</label>
+	</li>
+	<li>
+		<input type="checkbox" name="six" id="six" />
+		<label for="six">Photography</label>
+	</li>
+	<li>
+		<input type="checkbox" name="six" id="six" />
+		<label for="six">Video</label>
+	</li>
+</ul>
+			</div>
+      		<button class=" btn btn2">Next, tell us your grade</button>
+		</div>
+		
+	</div>
+</div>
+
+
+
+<div class="section" id="section2">
+	<div class="intro">
+		<h1>What grade are you in?</h1>
+		<p>Enter the appropriate grade level</p>
+		<ul>
+			
+	<li>
+		<input type="checkbox" name="one" id="one" />
+		<label for="one">9th</label>
+	</li>
+	<li>
+		<input type="checkbox" name="one" id="one" />
+		<label for="one">10th</label>
+	</li>
+	<li>
+		<input type="checkbox" name="one" id="one" />
+		<label for="one">11th</label>
+	</li>
+	<li>
+		<input type="checkbox" name="one" id="one" />
+		<label for="one">12th</label>
+	</li>
+	<li>
+		<input type="checkbox" name="one" id="one" />
+		<label for="one">College</label>
+	</li>
+</ul>
+		<button class="btn btn3">You're Done!</button>
+	</div>
+</div>
+<div class="section" id="section3">
+	<div class="intro">
+		<h1>Thank You for Registering</h1>
+		<p>
+			An email will be sent to verify your email address
+			Click to return to the front page.<br />
+			<button class="btn btn4">Explore</button>	
+			<br /><br /><br /><br /><br /><br />
+		</p>
+	</div>
+	
+</div>
+
+<script>
+	$('.btn1').click(function(){
+		$.fn.fullpage.moveTo(2); 
+
+	});
+	$('.btn2').click(function(){
+		$.fn.fullpage.moveTo(3); 
+
+	});
+	$('.btn3').click(function(){
+		$.fn.fullpage.moveTo(4); 
+
+	});
+</script>
+</body>
+</html>
