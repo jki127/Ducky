@@ -13,5 +13,11 @@ $(document).ready(function(){
       date: "1/30/14 - 2/1/14",
       desc: "Transform your education ideas into action in 54 hours. Find the right people with complimentary skills and the passion & dedication to build an education product in one weekend. Design for learning, conduct user tests, receive coaching from experienced education designers & industry professionals and win prizes that will help take your idea to the next level!"
     }
-  ]
+  ];
+
+  $('#container').isotope({
+  // options
+  itemSelector : '.item',
+  layoutMode : 'fitRows'
+});
 });
