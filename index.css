@@ -53,8 +53,7 @@ body{
   width: 20%;
 }
 .item{
-  min-height: 200px;
-  border: 2px solid black;
+  height: 300px;
   -webkit-box-sizing: border-box;
 }
 .title{
@@ -62,10 +61,16 @@ body{
 }
 .info{
   display: none;
+  margin-top: 20px;
+  transition: margin-top 1.5s ease-out;
 }
 .item:hover .info{
   display: block;
+  margin-top: 0;
 }
 .tag{
   background: rgba(41, 128, 185,1.0);
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
 }
